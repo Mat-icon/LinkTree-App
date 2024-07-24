@@ -47,10 +47,11 @@ const PreviewPage: React.FC = () => {
               <>
                 <Image
                   className="w-28 h-28 object-cover object-top rounded-full border-4 border-blue-600"
-                  src={profile.imageUrl || '/images/default-avatar.png'} // Fallback image if URL is not available
+                  src={profile.imageUrl || '/images/default-avatar.png'}
                   alt="User Avatar"
                   width={100}
                   height={100}
+                  unoptimized
                 />
                 <div className="flex flex-col items-center">
                   <h2 className="mt-4 text-xl font-semibold">{profile.firstName} {profile.lastName}</h2>

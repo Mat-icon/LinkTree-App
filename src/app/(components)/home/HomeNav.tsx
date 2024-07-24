@@ -38,7 +38,7 @@ const HomeNavbar: React.FC = () => {
       <div>
         <button
           onClick={handleShare}
-          className="btn text-white text-xs p-3 px-6 rounded-md preview font-semibold"
+          className="btn text-white focus:outline-none text-xs p-3 px-6 rounded-md preview font-semibold"
         >
           Share Link
         </button>
