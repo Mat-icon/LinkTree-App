@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.instrument-sans {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+
+.login-focus:focus{
+ box-shadow: 0px 0px 5px 4px #bdadff93;
+ border: 0.5px solid #BEADFF;
+}
+.btn:focus{
+  background: #BEADFF;
+  
+}
+
+.btn{
+  background: #633CFF;
+}
+.preview{
+  border: 1px solid #633CFF;
+}
+
+.link-color{
+  color: #633CFF;
+}
+.link-color:hover{
+  background: #633cff1a;
+}
+.link-bg:active{
+  background: #bdadff57;
+}
+
+.phone{
+  width: 280px;
+}
+
+#browse::file-selector-button {
+  display: none;
+}
+
+#browse {
+  color: transparent;
+}
+
+#browse::before {
+  content: url('/images/Frame 262.png');
+}
+
+.clip{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
