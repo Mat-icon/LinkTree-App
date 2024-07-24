@@ -38,14 +38,14 @@ const Navbar: React.FC<NavbarProps> = ({ setActivePage }) => {
           onClick={() => setActivePage('links')}
           className="links lg:hidden link-color text-sm px-4 font-semibold link-bg py-2 rounded-md"
         >
-          <LinkIcon className="w-4 h-4 link-color" />
+          <LinkIcon className="w-5 h-5" />
           
         </button>
         <button
           onClick={() => setActivePage('profile')}
           className="profile lg:hidden block  text-gray-500  hover:text-blue-600 items-center text-sm p-3 rounded-xl px-6 font-semibold"
         >
-          <UserCircleIcon className="w-4 h-4 mr-2" />
+          <UserCircleIcon className="w-5 h-5" />
 
         </button>
         <button
