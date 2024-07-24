@@ -29,8 +29,9 @@ const PreviewPage: React.FC = () => {
 
   return (
     <div className="w-5/12 h-auto bg-white rounded-xl lg:flex items-center justify-center hidden md:hidden">
-      <div className="relative bg-white rounded-3xl border border-gray-300 p-2 phone">
+      <div className="relative bg-white rounded-3xl border border-gray-300 p-2 phone"> <div className="w-5/12 absolute -top-8 left-20 h-14 border-b border-gray-300 rounded-b-xl"></div>
         <div className="rounded-3xl w-full h-full border border-gray-300 p-8">
+         
           <div className="flex flex-col items-center space-y-5">
             {isLoading ? (
               <>
@@ -69,6 +70,14 @@ const PreviewPage: React.FC = () => {
                             : platform?.name === "YouTube"
                             ? "bg-red-600 text-white"
                             : platform?.name === "LinkedIn"
+                            ? "bg-blue-600 text-white"
+                            : platform?.name === "Facebook"
+                            ? "bg-blue-400 text-white"
+                            : platform?.name === "Frontend Mentor"
+                            ? "bg-white text-black"
+                            : platform?.name === "Twitch"
+                            ? "bg-purple-600 text-white"
+                            : platform?.name === "Dev.to"
                             ? "bg-blue-600 text-white"
                             : ""
                         }`}

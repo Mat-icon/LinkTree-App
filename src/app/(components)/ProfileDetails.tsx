@@ -117,7 +117,7 @@ const ProfilePage: React.FC = () => {
             </label>
             <input
               type="text"
-              className="md:w-3/5 w-full p-3 text-sm border rounded-md focus:outline-none focus:border-purple-500"
+              className="md:w-3/5 login-focus w-full p-3 text-sm border rounded-md focus:outline-none "
               placeholder="e.g. John"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
@@ -129,7 +129,7 @@ const ProfilePage: React.FC = () => {
             </label>
             <input
               type="text"
-              className="md:w-3/5 w-full p-3 border text-sm rounded-md focus:outline-none focus:border-purple-500"
+              className="md:w-3/5 w-full login-focus p-3 border text-sm rounded-md focus:outline-none "
               placeholder="e.g. Appleseed"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
@@ -141,7 +141,7 @@ const ProfilePage: React.FC = () => {
             </label>
             <input
               type="email"
-              className="md:w-3/5 w-full text-sm p-3 border border-gray-300 rounded-md focus:outline-none focus:border-purple-500"
+              className="md:w-3/5 w-full text-sm p-3 border login-focus border-gray-300 rounded-md focus:outline-none "
               placeholder="e.g. email@example.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
