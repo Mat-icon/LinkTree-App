@@ -96,7 +96,7 @@ const ProfilePage: React.FC = () => {
                 />
               ) : (
                 <Image
-                  src={profile.imageUrl || "/images/upload-icon.png"}
+                  src={profile.imageUrl || "/images/user.png"}
                   alt="Upload Image"
                   width={200}
                   height={200}
