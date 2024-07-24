@@ -151,7 +151,7 @@ const CrudContainer: React.FC<CrudContainerProps> = ({
               ))}
             </ul>
           )}
-          <div className="mt-2">
+          <div className="mt-2 relative">
             <label className="text-xs">Link</label>
             <div className="absolute left-0 bottom-3 flex items-center pl-3 pointer-events-none">
               <LinkIcon className="w-4 h-4 text-gray-600" />

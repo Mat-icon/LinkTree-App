@@ -76,13 +76,13 @@ const ProfilePage: React.FC = () => {
               Profile Picture
             </p>
             <div className="lg:w-1/3 w-44 h-48 rounded-lg relative overflow-hidden">
-              <div className="w-full h-full absolute flex  bg-black opacity-45">
+              <div className="w-full h-full absolute flex  bg-black opacity-60">
                 <input
                   type="file"
                   id="browse"
                   accept="image/*"
                   onChange={handleImageChange}
-                  className="w-full text-xs mt-12 ml-8 lg:ml-11 relative z-20"
+                  className="w-full text-xs mt-12  ml-8 lg:ml-11 relative z-30"
                 />
               </div>
 
@@ -90,9 +90,9 @@ const ProfilePage: React.FC = () => {
                 <Image
                   src={imagePreview}
                   alt="Profile Preview"
-                  width={200}
+                  width={300}
                   height={200}
-                  className="object-cover"
+                  className="object-cover rounded-lg"
                 />
               ) : (
                 <Image

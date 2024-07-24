@@ -1,19 +1,19 @@
-'use client';
-import React, { useState } from 'react';
-import CustomLinks from './CustomLinks';
-import Navbar from './Navbar';
-import PreviewPage from './Preview';
-import ProfileDetails from './ProfileDetails'; // Assuming you have a ProfileDetails component
+"use client";
+import React, { useState } from "react";
+import CustomLinks from "./CustomLinks";
+import Navbar from "./Navbar";
+import PreviewPage from "./Preview";
+import ProfileDetails from "./ProfileDetails"; // Assuming you have a ProfileDetails component
 
 const Container: React.FC = () => {
-  const [activePage, setActivePage] = useState<'links' | 'profile'>('links');
+  const [activePage, setActivePage] = useState<"links" | "profile">("links");
 
   const renderActivePage = () => {
-    if (activePage === 'links') {
-      return <CustomLinks />;
-    }
-    if (activePage === 'profile') {
+    if (activePage === "profile") {
       return <ProfileDetails />;
+    }
+    if (activePage === "links") {
+      return <CustomLinks />;
     }
   };
 
