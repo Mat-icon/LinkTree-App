@@ -47,7 +47,7 @@ const PreviewPage: React.FC = () => {
               <>
                 <Image
                   className="w-28 h-28 object-cover object-top rounded-full border-4 border-blue-600"
-                  src={profile.imageUrl || '/images/default-avatar.png'}
+                  src={profile.imageUrl || '/images/user.png'}
                   alt="User Avatar"
                   width={100}
                   height={100}

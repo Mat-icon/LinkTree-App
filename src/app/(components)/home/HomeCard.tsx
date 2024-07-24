@@ -50,10 +50,11 @@ const HomeCard = () => {
           <>
             <Image
               className="w-28 h-28 object-cover object-top rounded-full border-2 border-blue-600"
-              src={profile.imageUrl || "/images/upload-icon.png"}
+              src={profile.imageUrl || "/images/user.png"}
               alt="User Avatar"
               width={500}
               height={500}
+              unoptimized
             />
             <div className="flex flex-col items-center">
               <h2 className="mt-4 text-3xl font-bold">{`${profile.firstName} ${profile.lastName}`}</h2>
