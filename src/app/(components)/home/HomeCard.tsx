@@ -57,7 +57,7 @@ const HomeCard = () => {
               unoptimized
             />
             <div className="flex flex-col items-center">
-              <h2 className="mt-4 text-3xl font-bold">{`${profile.firstName} ${profile.lastName}`}</h2>
+              <h2 className="w-11/12 mt-4 text-2xl font-bold">{`${profile.firstName} ${profile.lastName}`}</h2>
               <p className="mt-4 text-sm text-gray-600">{profile.email}</p>
             </div>
             <div className="pt-10 space-y-5 w-full">
