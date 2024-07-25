@@ -36,9 +36,11 @@
 }
 .link-color2:hover{
   background: #633cff1a;
+  transition: 0.3s ease-in;
 }
-.link-bg:active{
+.link-bg:hover{
   background: #bdadff57;
+  transition: 0.3s ease-in;
 }
 
 .phone{
@@ -63,4 +65,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+.toas{
+  background: #333;
 }

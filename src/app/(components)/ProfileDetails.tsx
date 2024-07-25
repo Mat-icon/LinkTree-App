@@ -52,7 +52,7 @@ const ProfilePage: React.FC = () => {
           { merge: true }
         );
         setProfile({ ...profile, firstName, lastName, email, imageUrl });
-        addToast("Profile saved successfully!", "success");
+        addToast("Your changes has sucessfully been saved!", 'success');
       } catch (error) {
         console.error("Error saving profile:", error);
         addToast("Error saving profile. Please try again.", "error");

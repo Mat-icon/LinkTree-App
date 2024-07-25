@@ -29,8 +29,8 @@ const PreviewPage: React.FC = () => {
 
   return (
     <div className="w-5/12 h-auto bg-white rounded-xl lg:flex items-center justify-center hidden md:hidden">
-      <div className="relative bg-white rounded-3xl border border-gray-300 p-2 phone"> <div className="w-5/12 absolute -top-8 left-20 h-14 border-b border-gray-300 rounded-b-xl"></div>
-        <div className="rounded-3xl w-full h-full border border-gray-300 p-8">
+      <div className="relative bg-white rounded-3xl border border-gray-500 p-2 phone"> <div className="w-5/12 absolute -top-8 left-20 h-14 border-b border-gray-500 rounded-b-xl"></div>
+        <div className="rounded-3xl w-full h-full border border-gray-500 p-8">
          
           <div className="flex flex-col items-center space-y-5">
             {isLoading ? (
