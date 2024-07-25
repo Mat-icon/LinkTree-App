@@ -10,7 +10,7 @@ interface ToastProps {
 const Toast: React.FC<ToastProps> = ({ message, variant }) => {
   return (
     <div
-      className={`py-2 shadow-md shadow-gray-400 w-auto mb-4 rounded-xl text-white flex items-center instrumental-sans text-sm  justify-center ${variant === 'success' ? 'toas' : 'bg-red-500'}`}
+      className={`py-2 px-1 shadow-md shadow-gray-400 w-auto mb-4 rounded-xl text-white flex items-center instrumental-sans text-xs md:text-sm  justify-center ${variant === 'success' ? 'toas' : 'bg-red-500'}`}
     >
       <LinkIcon className='w-4 h-4 mr-2 text-gray-500'/>{message}
     </div>
